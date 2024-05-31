@@ -1,0 +1,46 @@
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.multiButton{
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    background-color: rgb(194, 194, 29);
+    font-weight: bold;
+    color: white;
+    font-size:medium;
+
+}
+.QuestionSection{
+      display: flex;  
+      flex-direction: column;
+      width: 70vw;
+
+}
+.QuestionsandAnswers{
+    margin-bottom: 15px;
+}
+.Questions{
+    background-color: rgb(18, 158, 72);
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items:center;
+}
+
+.Answers{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(18, 158, 72);
+    padding-left: 15px;
+    padding-right: 10px;
+    color: white;
+}
