@@ -6,7 +6,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //StrictMode is to check that the components are mutating states by calling them twice with same data, if they return different result , react will let you know .
+  //StrictMode is to check that the components are not mutating states by calling them twice with same data, if they return different result , react will let you know .
   <React.StrictMode>
     <App />
   </React.StrictMode>

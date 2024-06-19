@@ -1,0 +1,15 @@
+.board-row{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0px;
+}
+
+.square{
+    width: 30px;
+    height: 30px;
+}
+.status{
+    display: flex;
+    justify-content: center;
+}
